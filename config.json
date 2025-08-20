@@ -1,8 +1,8 @@
 {
   "models": {
     "cn": "https://webszy.github.io/translator_models/models/vosk-model-cn.zip",
-    "en": "https://webszy.github.io/translator_models/models/vosk-model-de.zip",
-    "de": "https://webszy.github.io/translator_models/models/vosk-model-en.zip",
+    "de": "https://webszy.github.io/translator_models/models/vosk-model-de.zip",
+    "en": "https://webszy.github.io/translator_models/models/vosk-model-en.zip",
     "fr": "https://webszy.github.io/translator_models/models/vosk-model-fr.zip",
     "ja": "https://webszy.github.io/translator_models/models/vosk-model-ja.zip"
   }
