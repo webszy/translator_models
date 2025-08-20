@@ -1,9 +1,9 @@
 {
   "models": {
-    "cn": "https://cdn.jsdelivr.net/gh/webszy/translator_models@models/vosk-model-cn.zip",
-    "en": "https://cdn.jsdelivr.net/gh/webszy/translator_models@models/vosk-model-de.zip",
-    "de": "https://cdn.jsdelivr.net/gh/webszy/translator_models@models/vosk-model-en.zip",
-    "fr": "https://cdn.jsdelivr.net/gh/webszy/translator_models@models/vosk-model-fr.zip",
-    "ja": "https://cdn.jsdelivr.net/gh/webszy/translator_models@models/vosk-model-ja.zip"
+    "cn": "https://webszy.github.io/translator_models/models/vosk-model-cn.zip",
+    "en": "https://webszy.github.io/translator_models/models/vosk-model-de.zip",
+    "de": "https://webszy.github.io/translator_models/models/vosk-model-en.zip",
+    "fr": "https://webszy.github.io/translator_models/models/vosk-model-fr.zip",
+    "ja": "https://webszy.github.io/translator_models/models/vosk-model-ja.zip"
   }
 }
