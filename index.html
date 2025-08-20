@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vosk - Open Source Speech Recognition</title>
+    <script src="https://cdn.jsdelivr.net/npm/@unocss/runtime"></script>
+    <script src="https://code.iconify.design/3/3.1.1/iconify.min.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+        body { font-family: 'Inter', sans-serif; }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-900 leading-relaxed">
+<!-- Header -->
+<header class="bg-white shadow-sm border-b border-gray-200">
+    <div class="max-w-6xl mx-auto px-4 py-6">
+        <div class="flex items-center gap-3">
+            <iconify-icon icon="mdi:microphone" class="text-3xl text-blue-600"></iconify-icon>
+            <h1 class="text-3xl font-bold text-gray-900">Vosk</h1>
+            <span class="text-sm bg-blue-100 text-blue-800 px-2 py-1 rounded-full">Open Source</span>
+        </div>
+        <p class="text-gray-600 mt-2">Offline Speech Recognition Toolkit</p>
+    </div>
+</header>
+
+<!-- Hero Section -->
+<section class="bg-gradient-to-br from-blue-50 to-indigo-100 py-16">
+    <div class="max-w-6xl mx-auto px-4 text-center">
+        <h2 class="text-4xl font-bold text-gray-900 mb-6">
+            Advanced Speech Recognition for Everyone
+        </h2>
+        <p class="text-xl text-gray-700 mb-8 max-w-3xl mx-auto">
+            Vosk is an open-source speech recognition toolkit that works offline, supports multiple languages,
+            and can be easily integrated into your applications.
+        </p>
+        <div class="flex flex-wrap justify-center gap-4">
+            <div class="flex items-center gap-2 bg-white px-4 py-2 rounded-lg shadow-sm">
+                <iconify-icon icon="mdi:wifi-off" class="text-green-600"></iconify-icon>
+                <span class="font-medium">Offline Capable</span>
+            </div>
+            <div class="flex items-center gap-2 bg-white px-4 py-2 rounded-lg shadow-sm">
+                <iconify-icon icon="mdi:translate" class="text-purple-600"></iconify-icon>
+                <span class="font-medium">20+ Languages</span>
+            </div>
+            <div class="flex items-center gap-2 bg-white px-4 py-2 rounded-lg shadow-sm">
+                <iconify-icon icon="mdi:code-braces" class="text-orange-600"></iconify-icon>
+                <span class="font-medium">Easy Integration</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Features Section -->
+<section class="py-16 bg-white">
+    <div class="max-w-6xl mx-auto px-4">
+        <h3 class="text-3xl font-bold text-center mb-12">Key Features</h3>
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div class="text-center p-6 rounded-lg border border-gray-200 hover:shadow-lg transition-shadow">
+                <iconify-icon icon="mdi:lightning-bolt" class="text-4xl text-yellow-500 mb-4"></iconify-icon>
+                <h4 class="text-xl font-semibold mb-3">Real-time Processing</h4>
+                <p class="text-gray-600">Fast speech recognition with low latency, perfect for real-time applications and live transcription.</p>
+            </div>
+
+            <div class="text-center p-6 rounded-lg border border-gray-200 hover:shadow-lg transition-shadow">
+                <iconify-icon icon="mdi:shield-check" class="text-4xl text-green-500 mb-4"></iconify-icon>
+                <h4 class="text-xl font-semibold mb-3">Privacy First</h4>
+                <p class="text-gray-600">All processing happens locally on your device. No data is sent to external servers.</p>
+            </div>
+
+            <div class="text-center p-6 rounded-lg border border-gray-200 hover:shadow-lg transition-shadow">
+                <iconify-icon icon="mdi:puzzle" class="text-4xl text-blue-500 mb-4"></iconify-icon>
+                <h4 class="text-xl font-semibold mb-3">Easy Integration</h4>
+                <p class="text-gray-600">Simple APIs for Python, JavaScript, Java, C#, and more. Get started in minutes.</p>
+            </div>
+
+            <div class="text-center p-6 rounded-lg border border-gray-200 hover:shadow-lg transition-shadow">
+                <iconify-icon icon="mdi:memory" class="text-4xl text-purple-500 mb-4"></iconify-icon>
+                <h4 class="text-xl font-semibold mb-3">Lightweight</h4>
+                <p class="text-gray-600">Small model sizes starting from 50MB. Runs efficiently on mobile devices and embedded systems.</p>
+            </div>
+
+            <div class="text-center p-6 rounded-lg border border-gray-200 hover:shadow-lg transition-shadow">
+                <iconify-icon icon="mdi:tune" class="text-4xl text-red-500 mb-4"></iconify-icon>
+                <h4 class="text-xl font-semibold mb-3">Customizable</h4>
+                <p class="text-gray-600">Train custom models for specific domains, accents, or vocabularies to improve accuracy.</p>
+            </div>
+
+            <div class="text-center p-6 rounded-lg border border-gray-200 hover:shadow-lg transition-shadow">
+                <iconify-icon icon="mdi:open-source-initiative" class="text-4xl text-indigo-500 mb-4"></iconify-icon>
+                <h4 class="text-xl font-semibold mb-3">Open Source</h4>
+                <p class="text-gray-600">Apache 2.0 licensed. Free for commercial use with active community support.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Supported Languages -->
+<section class="py-16 bg-gray-50">
+    <div class="max-w-6xl mx-auto px-4">
+        <h3 class="text-3xl font-bold text-center mb-12">Supported Languages</h3>
+        <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4">
+            <div class="bg-white p-4 rounded-lg text-center shadow-sm">
+                <iconify-icon icon="flag:us-4x3" class="text-2xl mb-2"></iconify-icon>
+                <p class="font-medium">English</p>
+            </div>
+            <div class="bg-white p-4 rounded-lg text-center shadow-sm">
+                <iconify-icon icon="flag:ru-4x3" class="text-2xl mb-2"></iconify-icon>
+                <p class="font-medium">Russian</p>
+            </div>
+            <div class="bg-white p-4 rounded-lg text-center shadow-sm">
+                <iconify-icon icon="flag:de-4x3" class="text-2xl mb-2"></iconify-icon>
+                <p class="font-medium">German</p>
+            </div>
+            <div class="bg-white p-4 rounded-lg text-center shadow-sm">
+                <iconify-icon icon="flag:fr-4x3" class="text-2xl mb-2"></iconify-icon>
+                <p class="font-medium">French</p>
+            </div>
+            <div class="bg-white p-4 rounded-lg text-center shadow-sm">
+                <iconify-icon icon="flag:es-4x3" class="text-2xl mb-2"></iconify-icon>
+                <p class="font-medium">Spanish</p>
+            </div>
+            <div class="bg-white p-4 rounded-lg text-center shadow-sm">
+                <iconify-icon icon="flag:cn-4x3" class="text-2xl mb-2"></iconify-icon>
+                <p class="font-medium">Chinese</p>
+            </div>
+        </div>
+        <p class="text-center text-gray-600 mt-6">And many more languages supported...</p>
+    </div>
+</section>
+
+<!-- Use Cases -->
+<section class="py-16 bg-white">
+    <div class="max-w-6xl mx-auto px-4">
+        <h3 class="text-3xl font-bold text-center mb-12">Use Cases</h3>
+        <div class="grid md:grid-cols-2 gap-8">
+            <div class="flex gap-4 p-6 border border-gray-200 rounded-lg">
+                <iconify-icon icon="mdi:subtitles" class="text-3xl text-blue-600 flex-shrink-0 mt-1"></iconify-icon>
+                <div>
+                    <h4 class="text-xl font-semibold mb-2">Transcription Services</h4>
+                    <p class="text-gray-600">Convert audio files to text, create subtitles, or build transcription applications.</p>
+                </div>
+            </div>
+
+            <div class="flex gap-4 p-6 border border-gray-200 rounded-lg">
+                <iconify-icon icon="mdi:robot" class="text-3xl text-green-600 flex-shrink-0 mt-1"></iconify-icon>
+                <div>
+                    <h4 class="text-xl font-semibold mb-2">Voice Assistants</h4>
+                    <p class="text-gray-600">Build smart speakers, voice-controlled IoT devices, or virtual assistants.</p>
+                </div>
+            </div>
+
+            <div class="flex gap-4 p-6 border border-gray-200 rounded-lg">
+                <iconify-icon icon="mdi:phone" class="text-3xl text-purple-600 flex-shrink-0 mt-1"></iconify-icon>
+                <div>
+                    <h4 class="text-xl font-semibold mb-2">Call Centers</h4>
+                    <p class="text-gray-600">Analyze customer calls, automate quality assurance, or provide real-time assistance.</p>
+                </div>
+            </div>
+
+            <div class="flex gap-4 p-6 border border-gray-200 rounded-lg">
+                <iconify-icon icon="mdi:wheelchair-accessibility" class="text-3xl text-orange-600 flex-shrink-0 mt-1"></iconify-icon>
+                <div>
+                    <h4 class="text-xl font-semibold mb-2">Accessibility Tools</h4>
+                    <p class="text-gray-600">Create applications for hearing-impaired users or voice-controlled interfaces.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Getting Started -->
+<section class="py-16 bg-blue-50">
+    <div class="max-w-4xl mx-auto px-4 text-center">
+        <h3 class="text-3xl font-bold mb-6">Get Started with Vosk</h3>
+        <p class="text-xl text-gray-700 mb-8">
+            Ready to integrate speech recognition into your project? Choose your platform and start building.
+        </p>
+
+        <div class="bg-white p-6 rounded-lg shadow-sm text-left max-w-2xl mx-auto mb-8">
+            <h4 class="font-semibold mb-3 flex items-center gap-2">
+                <iconify-icon icon="mdi:console" class="text-blue-600"></iconify-icon>
+                Quick Installation
+            </h4>
+            <div class="bg-gray-900 text-green-400 p-4 rounded font-mono text-sm">
+                pip install vosk
+            </div>
+        </div>
+
+        <div class="flex flex-wrap justify-center gap-4">
+            <a href="#" class="flex items-center gap-2 bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors">
+                <iconify-icon icon="mdi:book-open"></iconify-icon>
+                Documentation
+            </a>
+            <a href="#" class="flex items-center gap-2 bg-gray-800 text-white px-6 py-3 rounded-lg hover:bg-gray-900 transition-colors">
+                <iconify-icon icon="mdi:github"></iconify-icon>
+                GitHub Repository
+            </a>
+            <a href="#" class="flex items-center gap-2 bg-green-600 text-white px-6 py-3 rounded-lg hover:bg-green-700 transition-colors">
+                <iconify-icon icon="mdi:play"></iconify-icon>
+                Try Demo
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-gray-900 text-white py-12">
+    <div class="max-w-6xl mx-auto px-4">
+        <div class="grid md:grid-cols-3 gap-8">
+            <div>
+                <div class="flex items-center gap-2 mb-4">
+                    <iconify-icon icon="mdi:microphone" class="text-2xl text-blue-400"></iconify-icon>
+                    <h5 class="text-xl font-bold">Vosk</h5>
+                </div>
+                <p class="text-gray-400">
+                    Open-source speech recognition toolkit for developers and researchers worldwide.
+                </p>
+            </div>
+
+            <div>
+                <h6 class="font-semibold mb-4">Resources</h6>
+                <ul class="space-y-2 text-gray-400">
+                    <li><a href="#" class="hover:text-white transition-colors">Documentation</a></li>
+                    <li><a href="#" class="hover:text-white transition-colors">API Reference</a></li>
+                    <li><a href="#" class="hover:text-white transition-colors">Model Downloads</a></li>
+                    <li><a href="#" class="hover:text-white transition-colors">Community Forum</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h6 class="font-semibold mb-4">Connect</h6>
+                <div class="flex gap-4">
+                    <a href="#" class="text-gray-400 hover:text-white transition-colors">
+                        <iconify-icon icon="mdi:github" class="text-2xl"></iconify-icon>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-white transition-colors">
+                        <iconify-icon icon="mdi:twitter" class="text-2xl"></iconify-icon>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-white transition-colors">
+                        <iconify-icon icon="mdi:discord" class="text-2xl"></iconify-icon>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
+            <p>&copy; 2024 Vosk Speech Recognition. Licensed under Apache 2.0.</p>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
